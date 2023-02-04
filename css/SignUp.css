@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: #284854 ;
+    /* background-image: url(../img/5.png) ;
+    background-attachment: fixed;
+    background-size: cover; */
+
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+
+.header{
+    background-image:url(../img/4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /*margin-bottom: 30px;*/
+    /*animation-name: changimage;*/
+    /*animation-duration: 10s;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-direction:alternate-reverse;*/
+
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.header .nav{
+    background-color: #284854;
+    opacity: 0.8;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+}
+
+.header .nav .logo{
+    float: left;
+    width: 60%;
+    padding-top: 3px;
+    padding-left: 30px;
+}
+.header .nav .logo img{
+    width:20%;
+}
+.header .nav .navbar{
+    float: right;
+    width: 40%;
+}
+
+
+.header .nav .navbar ul {
+    list-style: none;
+    overflow: hidden;
+    padding-top: 25px;
+
+}
+.header .nav .navbar ul li{
+    float: left;
+    padding: 0 10px;
+
+}
+
+.header .nav .navbar ul li :hover{
+    color:#b30086 ;
+}
+.header .nav .navbar ul li a:hover{
+    font-size: 22px ;
+
+}
+.header .nav .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+/********************************************************************************************************************/
+/*.header-content{*/
+/*    !* padding-top: 180px;*/
+/*    text-align: center; *!*/
+/*    */
+
+
+/*}*/
+.header-content{
+    padding-top: 80px;
+    padding-left: 100px;
+    /*padding-bottom: 180px;*/
+
+}
+
+.header-content div {
+    background-color: #284854;
+    width: 625px;
+    height: auto;
+    opacity: 0.8;
+    border-radius:50px ;
+    /*padding-right: 60px;*/
+    padding-top: 22px;
+    /*padding-bottom: 100px;*/
+
+
+}
+.header-content div table{
+    padding-left: 100px;
+
+}
+.header-content div table tr td label {
+    color: #fff;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: "Arabic Typesetting";
+    padding-right: 20px;
+}
+.header-content div table tr td  {
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: "Arabic Typesetting";
+    padding-bottom: 18px;
+}
+.header-content div table tr td input{
+    color:#1f343b;
+    font-size: 25px;
+    background: lightgray;
+    border-radius: 10px;
+    font-family: "Arabic Typesetting";
+    padding-left:10px ;
+
+
+}
+#log{
+   padding-left: 150px;
+   font-size: 50px ;
+   font-style: italic;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.header-content div table tr td input.aseel{
+    color: #1f343b;
+    font-size: 25px;
+    background: lightgray;
+    /* border-radius: 20px; */
+    width: 130px;
+    margin-right:10px ;
+    
+    font-family: "Arabic Typesetting";
+
+}
+.header-content.aseel{
+    border-radius: 5px;
+    width: 100;
+    margin-left: 10px;
+}
+.header-content div table tr td input.aseel#logID:hover{
+    color:#ffffff;
+    background:#b30086;
+}
+.header-content div table tr td input.aseel#SignupID:hover{
+    color:#ffffff;
+    background:#b30086;
+}
+
+/*****************************part five*************************************************/
+
+.final{
+    background-color: #1f343b;
+    text-align: center;
+    padding-top: 60px;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.final img{
+    padding-bottom: 20px;
+}
+
+.final i{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color:#484840 ;
+    padding-top: 22px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.final li a{
+    color: #ff66d9;
+    text-decoration: none;
+}
+.final li  :hover{
+    text-decoration: underline;
+}
+
+
+.final a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.final i:hover{
+    background-color: #385898;
+    color: #fff;
+    cursor: pointer;
+
+}
+#icon1:hover{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    color: #fff;
+    cursor: pointer;
+}
+#icon2:hover{
+    background-color:  red;
+    color: #fff;
+    cursor: pointer;
+}
+#icon3:hover{
+    background-color: rgb(29, 155, 240);
+    color: #fff;
+    cursor: pointer;
+
+}
+
+

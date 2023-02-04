@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: #284854 ;
+    /* background-image: url(../img/5.png) ;
+    background-attachment: fixed;
+    background-size: cover; */
+
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    /*background-image:url(https://res.cloudinary.com/itermotus/q_auto:low,f_auto,w_1200,h_800,c_fit/assets/grandmiramar/img/photo-gallery/wedd_g-m-70.jpg*/
+    /*);*/
+    background-image: url(../img/e.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 30px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.header .nav{
+    background-color: #284854;
+    opacity: 0.8;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header .nav .logo{
+    float: left;
+    width: 60%;
+    padding-top: 3px;
+    padding-left: 30px;
+}
+.header .nav .logo img{
+    width:20%;
+}
+.header .nav .navbar{
+    float: right;
+    width: 40%;
+}
+
+
+.header .nav .navbar ul {
+    list-style: none;
+    overflow: hidden;
+    padding-top: 25px;
+
+}
+.header .nav .navbar ul li{
+    float: left;
+    padding: 0 10px;
+
+}
+
+.header .nav .navbar ul li :hover{
+    color:#b30086 ;
+}
+.header .nav .navbar ul li a:hover{
+    font-size: 22px ;
+
+}
+.header .nav .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+.header-content{
+    padding-top: 150px;
+}
+
+.header-content h1 pre{
+    color: #284854;
+    font-size: 150px;
+    font-size: 70px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Playfair Display', serif;
+
+}
+/*<!--************************PART2*************************-->*/
+.contact{
+    overflow: hidden;
+    background-color: #f8f8f8;
+    padding-top: 100px;
+    /* margin-bottom: 100px; */
+    padding-bottom: 40px;
+}
+.contact-information{
+    float: left;
+    width: 50%;
+}
+.contact-information h2{
+    font-size: 32px;
+    font-family: 'Lora', serif;
+    color: #284854;
+    padding-bottom: 50px;
+
+}
+.para1{
+    padding-right: 50px;
+    color: #686868;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.Wed{
+    background-image: url("../img/e5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:600px ;
+    height:400px;
+    float: right;
+
+}
+.para2{
+    padding-right: 50px;
+    color: #686868;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.Conventions{
+    background-image: url(//res.cloudinary.com/itermotus/f_auto,w_800,h_600,c_fill//assets/grandmiramar/img/events/event1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:600px ;
+    height:400px;
+    float: right;
+
+}
+/******************************part five*****************************************/
+
+
+.final{
+    background-color: #1f343b;
+    text-align: center;
+    padding-top: 60px;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.final img{
+    padding-bottom: 20px;
+}
+
+.final i{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color:#484840 ;
+    padding-top: 22px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.final li a{
+    color: #ff66d9;
+    text-decoration: none;
+}
+.final li  :hover{
+    text-decoration: underline;
+}
+
+
+.final a{
+    text-decoration: none;
+     color: #fff; 
+}
+
+ .final i:hover{
+    background-color: #385898;
+    color: #fff;
+    cursor: pointer;
+
+}
+#icon1:hover{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    color: #fff;
+    cursor: pointer;
+}
+#icon2:hover{
+    background-color:  red;
+    color: #fff;
+    cursor: pointer;
+}
+#icon3:hover{
+    background-color: rgb(29, 155, 240);
+    color: #fff;
+    cursor: pointer;
+
+}

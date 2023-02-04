@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- /************************javascript for first room*************************/ -->
+<script>
+    var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+</script>
+<style>
+    .mySlides {display:none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+<!-- /******************************************************************4***************************************/ -->
+<script>
+    var slideIndex1 = 1;
+        showSlides1(slideIndex1);
+
+        function plusSlides1(n1) {
+            showSlides1(slideIndex1 += n1);
+        }
+
+        function currentSlide1(n1) {
+            showSlides1(slideIndex1 = n1);
+        }
+
+        function showSlides1(n1) {
+            
+            var i1;
+            var slides1 = document.getElementsByClassName("mySlides1");
+            var dots1 = document.getElementsByClassName("dot1");
+            if (n1 > slides1.length) { slideIndex1 = 1 }
+            if (n1 < 1) { slideIndex1 = slides1.length }
+            for (i1 = 0; i1 < slides1.length; i1++) {
+                slides1[i1].style.display = "none";
+            }
+            for (i1 = 0; i1 < dots1.length; i1++) {
+                dots1[i1].className = dots1[i1].className.replace(" active", "");
+            }
+            slides1[slideIndex1 - 1].style.display = "block";
+            dots1[slideIndex1 - 1].className += " active";
+        }
+</script>
+<style>
+
+
+     .mySlides1 {display:none} 
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow1 {
+  max-width: 400px;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover, .next1:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot1:hover {
+  background-color: #717171;
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev1, .next1,.text1 {font-size: 11px}
+}
+</style>
+
+
+
+
+
+
+<!-- /******************************************************************5**************************************/ -->
+<script>
+    var slideIndex11 = 1;
+        showSlides11(slideIndex11);
+
+        function plusSlides11(n11) {
+            showSlides11(slideIndex11 += n11);
+        }
+
+        function currentSlide11(n11) {
+            showSlides11(slideIndex11 = n11);
+        }
+
+        function showSlides11(n11) {
+            
+            var i11;
+            var slides11 = document.getElementsByClassName("mySlides11");
+            var dots11 = document.getElementsByClassName("dot11");
+            if (n11 > slides11.length) { slideIndex11 = 1 }
+            if (n11 < 1) { slideIndex11 = slides11.length }
+            for (i11 = 0; i11 < slides11.length; i11++) {
+                slides11[i11].style.display = "none";
+            }
+            for (i11 = 0; i11 < dots11.length; i11++) {
+                dots11[i11].className = dots11[i11].className.replace(" active", "");
+            }
+            slides11[slideIndex11 - 1].style.display = "block";
+            dots11[slideIndex11 - 1].className += " active";
+        }
+</script>
+<style>
+
+
+     .mySlides11 {display:none} 
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow11 {
+  max-width: 400px;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev11, .next11 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next11 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev11:hover, .next11:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text11 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext11 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot11 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot11:hover {
+  background-color: #717171;
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev11, .next11,.text11 {font-size: 11px}
+}
+</style>
+
+
+
+
+<!-- /******************************************************************6***************************************/ -->
+<script>
+    var slideIndex2 = 1;
+        showSlides2(slideIndex2);
+
+        function plusSlides2(n2) {
+            showSlides2(slideIndex2 += n2);
+        }
+
+        function currentSlide2(n2) {
+            showSlides2(slideIndex2 = n2);
+        }
+
+        function showSlides2(n2) {
+            
+            var i2;
+            var slides2 = document.getElementsByClassName("mySlides2");
+            var dots2 = document.getElementsByClassName("dot2");
+            if (n2 > slides2.length) { slideIndex2 = 1 }
+            if (n2 < 1) { slideIndex2 = slides2.length }
+            for (i2 = 0; i2 < slides2.length; i2++) {
+                slides2[i2].style.display = "none";
+            }
+            for (i2 = 0; i2 < dots2.length; i2++) {
+                dots2[i2].className = dots2[i2].className.replace(" active", "");
+            }
+            slides2[slideIndex2 - 1].style.display = "block";
+            dots2[slideIndex2 - 1].className += " active";
+        }
+</script>
+<style>
+
+
+     .mySlides2 {display:none} 
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow2 {
+  max-width: 400px;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text2 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext2 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot2:hover {
+  background-color: #717171;
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev2, .next2,.text2 {font-size: 11px}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /******************************************************************7***************************************/ -->
+<script>
+    var slideIndex3 = 1;
+        showSlides3(slideIndex3);
+
+        function plusSlides3(n3) {
+            showSlides3(slideIndex3 += n3);
+        }
+
+        function currentSlide3(n3) {
+            showSlides3(slideIndex3 = n3);
+        }
+
+        function showSlides3(n3) {
+            
+            var i3;
+            var slides3 = document.getElementsByClassName("mySlides3");
+            var dots3 = document.getElementsByClassName("dot3");
+            if (n3 > slides3.length) { slideIndex3 = 1 }
+            if (n3 < 1) { slideIndex3 = slides3.length }
+            for (i3 = 0; i3 < slides3.length; i3++) {
+                slides3[i3].style.display = "none";
+            }
+            for (i3 = 0; i3 < dots3.length; i3++) {
+                dots3[i3].className = dots3[i3].className.replace(" active", "");
+            }
+            slides3[slideIndex3 - 1].style.display = "block";
+            dots3[slideIndex3 - 1].className += " active";
+        }
+</script>
+<style>
+
+
+     .mySlides3 {display:none} 
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow3 {
+  max-width: 400px;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev3, .next3 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next3 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev3:hover, .next3:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text3 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext3 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot3:hover {
+  background-color: #717171;
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev3, .next3,.text3 {font-size: 11px}
+}
+</style>
+
+
+
+<!-- /******************************************************************8***************************************/ -->
+<script>
+    var slideIndex4 = 1;
+        showSlides4(slideIndex4);
+
+        function plusSlides4(n4) {
+            showSlides4(slideIndex4 += n4);
+        }
+
+        function currentSlide4(n4) {
+            showSlides4(slideIndex4 = n4);
+        }
+
+        function showSlides4(n4) {
+            
+            var i4;
+            var slides4 = document.getElementsByClassName("mySlides4");
+            var dots4 = document.getElementsByClassName("dot4");
+            if (n4 > slides4.length) { slideIndex4 = 1 }
+            if (n4 < 1) { slideIndex4 = slides4.length }
+            for (i4 = 0; i4 < slides4.length; i4++) {
+                slides4[i4].style.display = "none";
+            }
+            for (i4 = 0; i4 < dots4.length; i4++) {
+                dots4[i4].className = dots4[i4].className.replace(" active", "");
+            }
+            slides4[slideIndex4 - 1].style.display = "block";
+            dots4[slideIndex4 - 1].className += " active";
+        }
+</script>
+<style>
+
+
+     .mySlides4 {display:none} 
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow4 {
+  max-width: 400px;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev4, .next4 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next4 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev4:hover, .next4:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text4 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext4 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot4{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot4:hover {
+  background-color: #717171;
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev4, .next4,.text4 {font-size: 11px}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /******************************************************************8***************************************/ -->
+<script>
+    var slideIndex5 = 1;
+        showSlides5(slideIndex5);
+
+        function plusSlides5(n5) {
+            showSlides5(slideIndex5 += n5);
+        }
+
+        function currentSlide5(n5) {
+            showSlides5(slideIndex5 = n5);
+        }
+
+        function showSlides5(n5) {
+            
+            var i5;
+            var slides5 = document.getElementsByClassName("mySlides5");
+            var dots5 = document.getElementsByClassName("dot5");
+            if (n5 > slides5.length) { slideIndex5 = 1 }
+            if (n5 < 1) { slideIndex5 = slides5.length }
+            for (i5 = 0; i5 < slides5.length; i5++) {
+                slides5[i5].style.display = "none";
+            }
+            for (i5 = 0; i5 < dots5.length; i5++) {
+                dots5[i5].className = dots5[i5].className.replace(" active", "");
+            }
+            slides5[slideIndex5 - 1].style.display = "block";
+            dots5[slideIndex5 - 1].className += " active";
+        }
+</script>
+<style>
+
+
+     .mySlides5 {display:none} 
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow5 {
+  max-width: 400px;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev5, .next5 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next5 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev5:hover, .next5:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text5 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext5 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot5{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot5:hover {
+  background-color: #717171;
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev5, .next5,.text5 {font-size: 11px}
+}
+</style>
+
+
+
+
+<!-- /******************************************************************9**************************************/ -->
+<script>
+    var slideIndex6 = 1;
+        showSlides6(slideIndex6);
+
+        function plusSlides6(n6) {
+            showSlides6(slideIndex6 += n6);
+        }
+
+        function currentSlide6(n6) {
+            showSlides6(slideIndex6 = n6);
+        }
+
+        function showSlides6(n6) {
+            
+            var i6;
+            var slides6 = document.getElementsByClassName("mySlides6");
+            var dots6= document.getElementsByClassName("dot6");
+            if (n6 > slides6.length) { slideIndex6 = 1 }
+            if (n6 < 1) { slideIndex6 = slides6.length }
+            for (i6= 0; i6 < slides6.length; i6++) {
+                slides6[i6].style.display = "none";
+            }
+            for (i6 = 0; i6 < dots6.length; i6++) {
+                dots6[i6].className = dots6[i6].className.replace(" active", "");
+            }
+            slides6[slideIndex6 - 1].style.display = "block";
+            dots6[slideIndex6 - 1].className += " active";
+        }
+</script>
+<style>
+
+
+     .mySlides6 {display:none} 
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow6 {
+  max-width: 400px;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev6, .next6 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next6 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev6:hover, .next6:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text6 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext6 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot6{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot6:hover {
+  background-color: #717171;
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev6, .next6,.text6 {font-size: 11px}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides ">
+            <div class="numbertext">1 / 3333</div>
+            <img src="img/room1/1.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides ">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/room1/2.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides ">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/room1/3.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <br><br><br>
+
+    <div class="slideshow1">
+
+        <div class="mySlides1 ">
+            <div class="numbertext1">1 / 3</div>
+            <img src="img/room1/1.jpg" style="width:100%">
+            <div class="text1"></div>
+        </div>
+
+        <div class="mySlides1 ">
+            <div class="numbertext1">2 / 3</div>
+            <img src="img/room1/2.jpg" style="width:100%">
+            <div class="text1"></div>
+        </div>
+
+        <div class="mySlides1 ">
+            <div class="numbertext1">3 / 3</div>
+            <img src="img/room1/3.jpg" style="width:100%">
+            <div class="text1"></div>
+        </div>
+
+        <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
+        <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot1" onclick="currentSlide1(1)"></span>
+        <span class="dot1" onclick="currentSlide1(2)"></span>
+        <span class="dot1" onclick="currentSlide1(3)"></span>
+    </div>
+
+
+
+
+
+
+
+    
+    <div class="slideshow11">
+
+        <div class="mySlides11 ">
+            <div class="numbertext11">1 / 3</div>
+            <img src="img/room1/1.jpg" style="width:100%">
+            <div class="text11"></div>
+        </div>
+
+        <div class="mySlides11 ">
+            <div class="numbertext11">2 / 3</div>
+            <img src="img/room1/2.jpg" style="width:100%">
+            <div class="text11"></div>
+        </div>
+
+        <div class="mySlides11 ">
+            <div class="numbertext11">3 / 3</div>
+            <img src="img/room1/3.jpg" style="width:100%">
+            <div class="text11"></div>
+        </div>
+
+        <a class="prev11" onclick="plusSlides11(-1)">&#10094;</a>
+        <a class="next11" onclick="plusSlides11(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot11" onclick="currentSlide11(1)"></span>
+        <span class="dot11" onclick="currentSlide11(2)"></span>
+        <span class="dot11" onclick="currentSlide11(3)"></span>
+    </div>
+
+
+
+
+
+
+
+    <div class="slideshow2">
+
+        <div class="mySlides2 ">
+            <div class="numbertext2">1 / 3</div>
+            <img src="img/room1/1.jpg" style="width:100%">
+            <div class="text2"></div>
+        </div>
+
+        <div class="mySlides2 ">
+            <div class="numbertext2">2 / 3</div>
+            <img src="img/room1/2.jpg" style="width:100%">
+            <div class="text2"></div>
+        </div>
+
+        <div class="mySlides2 ">
+            <div class="numbertext2">3 / 3</div>
+            <img src="img/room1/3.jpg" style="width:100%">
+            <div class="text2"></div>
+        </div>
+
+        <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot2" onclick="currentSlide2(1)"></span>
+        <span class="dot2" onclick="currentSlide2(2)"></span>
+        <span class="dot2" onclick="currentSlide2(3)"></span>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="slideshow3">
+
+        <div class="mySlides3 ">
+            <div class="numbertext3">3 / 3</div>
+            <img src="img/room1/1.jpg" style="width:100%">
+            <div class="text3"></div>
+        </div>
+
+        <div class="mySlides3 ">
+            <div class="numbertext3">2 / 3</div>
+            <img src="img/room1/2.jpg" style="width:100%">
+            <div class="text3"></div>
+        </div>
+
+        <div class="mySlides3 ">
+            <div class="numbertext3">3 / 3</div>
+            <img src="img/room1/3.jpg" style="width:100%">
+            <div class="text3"></div>
+        </div>
+
+        <a class="prev3" onclick="plusSlides3(-1)">&#10094;</a>
+        <a class="next3" onclick="plusSlides3(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot3" onclick="currentSlide3(1)"></span>
+        <span class="dot3" onclick="currentSlide3(2)"></span>
+        <span class="dot3" onclick="currentSlide3(3)"></span>
+    </div>
+
+
+
+
+
+    <div class="slideshow4">
+
+        <div class="mySlides4 ">
+            <div class="numbertext4">3 / 3</div>
+            <img src="img/room1/1.jpg" style="width:100%">
+            <div class="text4"></div>
+        </div>
+
+        <div class="mySlides4 ">
+            <div class="numbertext4">3 / 3</div>
+            <img src="img/room1/2.jpg" style="width:100%">
+            <div class="text4"></div>
+        </div>
+
+        <div class="mySlides4 ">
+            <div class="numbertext4">3 / 3</div>
+            <img src="img/room1/3.jpg" style="width:100%">
+            <div class="text4"></div>
+        </div>
+
+        <a class="prev4" onclick="plusSlides4(-1)">&#10094;</a>
+        <a class="next4" onclick="plusSlides4(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot4" onclick="currentSlide4(1)"></span>
+        <span class="dot4" onclick="currentSlide4(2)"></span>
+        <span class="dot4" onclick="currentSlide4(3)"></span>
+    </div>
+
+
+
+
+    <div class="slideshow5">
+
+        <div class="mySlides5 ">
+            <div class="numbertext5">3 / 3</div>
+            <img src="img/room1/1.jpg" style="width:100%">
+            <div class="text5"></div>
+        </div>
+
+        <div class="mySlides5 ">
+            <div class="numbertext5">3 / 3</div>
+            <img src="img/room1/2.jpg" style="width:100%">
+            <div class="text5"></div>
+        </div>
+
+        <div class="mySlides5 ">
+            <div class="numbertext5">3 / 3</div>
+            <img src="img/room1/3.jpg" style="width:100%">
+            <div class="text5"></div>
+        </div>
+
+        <a class="prev5" onclick="plusSlides5(-1)">&#10094;</a>
+        <a class="next5" onclick="plusSlides5(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot5" onclick="currentSlide5(1)"></span>
+        <span class="dot5" onclick="currentSlide5(2)"></span>
+        <span class="dot5" onclick="currentSlide5(3)"></span>
+    </div>
+
+
+
+
+
+    <div class="slideshow6">
+
+        <div class="mySlides6 ">
+            <div class="numbertext6">3 / 3</div>
+            <img src="img/room1/1.jpg" style="width:100%">
+            <div class="text6"></div>
+        </div>
+
+        <div class="mySlides6 ">
+            <div class="numbertext6">3 / 3</div>
+            <img src="img/room1/2.jpg" style="width:100%">
+            <div class="text6"></div>
+        </div>
+
+        <div class="mySlides6 ">
+            <div class="numbertext6">3 / 3</div>
+            <img src="img/room1/3.jpg" style="width:100%">
+            <div class="text6"></div>
+        </div>
+
+        <a class="prev6" onclick="plusSlides6(-1)">&#10094;</a>
+        <a class="next6" onclick="plusSlides6(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot6" onclick="currentSlide6(1)"></span>
+        <span class="dot6" onclick="currentSlide6(2)"></span>
+        <span class="dot6" onclick="currentSlide6(3)"></span>
+    </div>
+
+
+
+
+    
+
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+
+}
+body{
+    background-image:url(../img/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    /*background-color: blue;*/
+}
+.nav{
+    background-color: #284854;
+    opacity: 0.8;
+     overflow: hidden; 
+     position: fixed;
+  top: 0;
+  width: 100%;
+     
+
+}
+
+ .nav .logo{
+    float: left;
+    width: 60%;
+    padding-top: 3px;
+    padding-left: 30px;
+}
+.nav .logo img{
+    width:20%;
+}
+ .nav .navbar{
+    float: right;
+    width: 40%;
+}
+
+
+ .nav .navbar ul {
+    list-style: none;
+     overflow: hidden; 
+    padding-top: 25px;
+      
+}
+ .nav .navbar ul li{
+    float: left;
+    padding: 0 10px;
+    
+}
+
+ .nav .navbar ul li :hover{
+    color:#b30086 ;
+}
+ .nav .navbar ul li a:hover{
+    font-size: 22px ;
+    
+}
+ .nav .navbar ul li a{
+    text-decoration: none;
+     color: #fff; 
+    font-size: 20px;
+    text-transform: capitalize;
+  
+}
+
+/**************************************************************************************************************/
+
+
+.all{
+    width: 900px;
+    background-color: #f3f3f3;
+    height: 500px;
+    margin-left: 18%;
+    margin-top: 140px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+  
+  
+}
+.big-class{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-left: 50px;
+  
+}
+.small{
+    flex: 30%;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #284854;
+    
+}
+
+.small input{
+    height: 25px;
+    width: 200px;
+    border-style: none;
+    
+}
+.small .radio1{
+    height: 25px;
+    width: 200px;
+    border-style: none;
+}
+#butt{
+    background-color: #284854;
+    color: white;
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+}
+#butt2{
+    background-color: #284854;
+    color: white;
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+}
+#labell{
+    font-size: 30px;
+    text-shadow: 1px 1px 6px #b30086;
+}
+#butt:hover{
+    background-color: #b30086;
+    
+}
+#butt2:hover{
+    background-color: #b30086;
+
+}
